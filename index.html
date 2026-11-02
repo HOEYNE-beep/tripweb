@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TripWeb</title>
+<style>
+  :root { --bg: #f6f7f9; --fg: #1d2430; --muted: #5d6673; --accent: #1f6fb2; --card: #ffffff; --line: #dfe3e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #11161c; --fg: #e4e9ef; --muted: #98a3b0; --accent: #6fb3ec; --card: #182029; --line: #28323d; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 28px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 14px; }
+  h2 { font-size: 17px; margin: 0 0 6px; }
+  p, li { margin: 0 0 6px; }
+  ul { padding-left: 20px; margin: 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 14px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TripWeb</h1>
+  <p class="sub">개인용 여행 일정 플래너 · Personal trip planner</p>
+
+  <section>
+    <h2>무엇인가요</h2>
+    <p>TripWeb은 한 사람이 자기 PC에서 쓰는 여행 일정 앱입니다. 날짜별 일정, 준비물, 예산, 여행 사진을 정리합니다.
+      다른 사람에게 서비스하지 않으며, 계정 가입이나 광고가 없습니다.</p>
+    <p>TripWeb is a personal, self-hosted trip planner that runs on its owner's own computer. It is not offered as a service to other people.</p>
+  </section>
+
+  <section>
+    <h2>구글 드라이브를 쓰는 이유</h2>
+    <ul>
+      <li>여행 일정을 구글 스프레드시트 한 개("TripWeb 여행 데이터")에 사본으로 맞춰 두어, 휴대폰에서도 보고 고칠 수 있게 합니다.</li>
+      <li>여행 사진과 오프라인용 일정 파일을 구글 드라이브의 "TripWeb" 폴더에 올립니다.</li>
+      <li>휴대폰으로 그 폴더에 올린 사진을 읽어 와 일정에 붙입니다.</li>
+    </ul>
+    <p>The app syncs the owner's itinerary with one Google Sheet and stores trip photos and offline copies in a "TripWeb" folder in the owner's own Google Drive.</p>
+  </section>
+
+  <section>
+    <h2>개인정보</h2>
+    <p>자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 보세요. · See the <a href="privacy.html">privacy policy</a>.</p>
+  </section>
+
+  <footer>TripWeb · 개인 프로젝트</footer>
+</main>
+</body>
+</html>
